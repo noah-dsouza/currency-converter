@@ -25,7 +25,7 @@ Users can type the name or code of any currency, instantly view conversion resul
 - ⚙️ **Instant Conversion:**  
   Conversion happens in real-time as you type, without needing to press a button.
 
-- 💅 **Smooth & Modern UI:**  
+- 🤓 **Smooth & Modern UI:**  
   Built from scratch with responsive design, gradients, and soft shadow styling.
 
 ---
