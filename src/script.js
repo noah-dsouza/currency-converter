@@ -26,7 +26,7 @@ updateFlag(imageSource, inputSourceSelect.value);
 updateFlag(imageTarget, inputTargetSelect.value);
 convertCurrency();
 
-// Helpers
+// Helper funcs
 function updateFlag(imgEl, currencyCode) {
   const flagCode = currencyToFlagCode[currencyCode.toUpperCase()];
   if (!flagCode) {
