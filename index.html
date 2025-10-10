@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="circle circle--purple"></div>
+    <div class="circle circle--blue"></div>
+
+    <main class="currency-converter">
+      <h1 class="currency-converter__title">Currency Converter</h1>
+
+      <input
+        class="currency-converter__input"
+        type="number"
+        placeholder="Enter amount"
+        id="inputSourceCurrency"
+      />
+
+      <div class="currency-converter__select-group">
+        <!-- Source -->
+        <div class="currency-converter__select">
+          <img id="imageSourceCurrency" alt="flag" />
+          <input
+            list="currencyList"
+            id="inputSourceSelect"
+            placeholder="Search currency..."
+            class="currency-converter__search"
+          />
+        </div>
+
+        <!-- Swap -->
+        <div class="currency-converter__swap" id="swapButton">
+          <i class="bx bx-transfer-alt"></i>
+        </div>
+
+        <!-- Target -->
+        <div class="currency-converter__select">
+          <img id="imageTargetCurrency" alt="flag" />
+          <input
+            list="currencyList"
+            id="inputTargetSelect"
+            placeholder="Search currency..."
+            class="currency-converter__search"
+          />
+        </div>
+
+        <!-- List -->
+        <datalist id="currencyList"></datalist>
+      </div>
+
+      <div class="currency-converter__result" id="resultBox">1 USD = 1 USD</div>
+    </main>
+
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
