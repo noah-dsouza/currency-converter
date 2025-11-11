@@ -32,7 +32,7 @@ Users can type the name or code of any currency, instantly view conversion resul
 
 ## 🧠 How It Works
 
-1. The app uses **JavaScript (ES Modules)** to handle user input, manage selected currencies, and communicate with external APIs.  
+1. The app uses **JavaScript** to handle user input, manage selected currencies, and communicate with external APIs.  
 2. Currency data and country flags are dynamically fetched using the **CurrencyAPI** and **FlagsAPI**, ensuring all results stay accurate and current.  
 3. Conversion logic automatically recalculates results whenever the user types a new value or changes a selected currency.  
 4. The app was developed using **Vite**, a lightning-fast frontend build tool for modern web apps.  
@@ -45,7 +45,7 @@ Users can type the name or code of any currency, instantly view conversion resul
 | Tool / API | Purpose |
 |-------------|----------|
 | **Vite** | Development environment & build tool |
-| **JavaScript (ES Modules)** | Core logic and interactivity |
+| **JavaScript** | Core logic and interactivity |
 | **CurrencyAPI** | Live exchange rate data |
 | **FlagsAPI** | Displays corresponding country flags |
 | **CSS3** | Styling, gradients, and responsive design |
